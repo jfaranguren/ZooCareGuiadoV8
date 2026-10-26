@@ -73,7 +73,7 @@ public enum ActivityStatus {
 
         ActivityStatus[] values = ActivityStatus.values();
 
-        if (activityOption < 0 || activityOption >= values.length) {
+        if (activityOption < 1 || activityOption > values.length) {
             return null;
         }
 
