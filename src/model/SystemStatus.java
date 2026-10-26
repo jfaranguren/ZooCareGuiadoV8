@@ -67,7 +67,7 @@ public enum SystemStatus {
 
         SystemStatus[] values = SystemStatus.values();
 
-        if (option < 0 || option >= values.length) {
+        if (option < 1 || option > values.length) {
             return null;
         }
 
