@@ -78,7 +78,7 @@ public enum DietType {
 
         DietType[] values = DietType.values();
 
-        if (dietOption < 0 || dietOption >= values.length) {
+        if (dietOption < 1 || dietOption > values.length) {
             return null;
         }
 
